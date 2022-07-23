@@ -1,1 +1,1 @@
-https://FaiizOfficial.github.io/Faiizhsn/
+https://faiizofficial.github.io/Faiizhsn/
