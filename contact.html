@@ -10,7 +10,8 @@
 <body>
     <nav>
         <a href="index.html">Home</a> |
-        <a href="contact.html">Contact</a> |
+        <a href="cv-dian.pdf">Download CV</a> |
+        <a href="contact.html"><a href="mailto:muhammadfaiiz16@gmail.com">Contact</a> |
         <a href="about.html">About me</a>
     </nav>
 
@@ -18,15 +19,14 @@
 
     <div>
         <h1>Contact Me</h1>
-        <form>
-            <label for="email">Email</label><br />
-            <input type="email" name="email" placeholder="alamat email"/>
+        <form method="POST" action="proses.php">
+            Judul Email: <br />
+            <input type="text" name="judul" id="judul" placeholder="judul"><br />
+            Pesan: <br />
+            <textarea name="pesan" id="pesan" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
             <br />
-            <label for="message">Pesan</label><br />
-            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
             <br />
-            <br />
-            <input type="submit" value="Kirim" />
+            <button type="submit" name="submit">Kirim Email!</button>
         </form>
     </div>
 
